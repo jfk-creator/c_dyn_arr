@@ -1,6 +1,10 @@
 #ifndef DYN_ARR_H_
 #define DYN_ARR_H_
 
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+
 typedef struct {
     uint64_t count; 
     size_t size;

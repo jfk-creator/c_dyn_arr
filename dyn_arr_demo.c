@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <string.h>
 #include "dyn_arr.h"
 
 int main(int argc, char** argv) {
