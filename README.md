@@ -1,6 +1,6 @@
 # c_dyn_arr
-A naiv impl of a dynamic array in c
-
+A naiv impl of a dynamic array in c.
+This is still work in progress. 
 # How to use it
 ````c
 typedef struct {
