@@ -2,7 +2,7 @@
 A naiv impl of a dynamic array in c
 
 # How to use it
-´´´c
+````c
 typedef struct {
     int age;
     char name[255];
@@ -18,6 +18,6 @@ Person *get_person = (Person*) Get_gyn(&dyn, 5, &person); // gets the element fr
 
 Person *person_arr = person_dyn.start; // you now have access via the c array syntax
 Person julian = person_arr[0]; 
-´´´
+```
 
 
