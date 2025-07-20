@@ -52,7 +52,6 @@ static inline int Insert_dyn(Dyn *dyn, uint64_t place, void *value){
 static inline void *Get_dyn(Dyn *dyn, uint64_t place){
     if(place >= dyn->cursor) return NULL;
     return dyn->start + (dyn->size) * place;
-    
 }
 static inline void *For_each_dyn(Dyn *dyn, int (*func)(void*, void*, int64_t), void *func_args){
     for(int64_t i = 0; i < dyn->cursor; i += 1) {
